@@ -15,7 +15,7 @@ public class Robot extends SampleRobot {
 
     public Robot() {
         server = CameraServer.getInstance();
-        server.setQuality(50);
+        server.setQuality(100);
         //the camera name (ex "cam0") can be found through the roborio web interface
         server.startAutomaticCapture("cam0");
     }
